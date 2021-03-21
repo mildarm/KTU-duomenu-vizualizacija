@@ -1,37 +1,37 @@
-# R Laboratorinis darbas: duomenų vizualizacija
+﻿# R Laboratorinis darbas: duomenų vizualizacija
 
 | Variantas | ecoActCode |
 |------------- | ------------- |
-|18   | 123456 |
+|1  | 731100 |
 
 ### 1. Užduotis
 
 Atsakymas:
 
-![histograma](img/pavyzdys1.png)
+![histograma](img/1_uzduotis.png)
 
-Išvados:
+Išvados: didžioji dalis įmonių moka darbuotojams ~800 EUR atlyginimą.
 
 ### 2. Užduotis
 
 Atsakymas:
 
-![atlyginimai](img/pavyzdys2.png)
+![atlyginimai](img/2_uzduotis.png)
 
-Išvados:
+Išvados: metų eigoje matome didelius periodinius atlyginimų svyravimus. galbūt darbuotojams tam tikrą mėnesį yra išmokamos premijos.
 
 
 ### 3. Užduotis
 
 Atsakymas:
 
-![apdraustieji](img/pavyzdys3.png)
+![apdraustieji](img/3_uzduotis.png)
 
-Išvados:
+Išvados: didžiausias apdraustųjų skaičius yra įmonėje Pfizer Luxemburg Sarl.
 
 
 ### 4. Užduotis
 
 Shiny R aplikacijos nuotrauka:
 
-![shiny app](img/shiny_example.png)
+![shiny app](img/shiny_app.png)
