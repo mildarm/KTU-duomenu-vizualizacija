@@ -16,7 +16,7 @@ Išvados: didžioji dalis įmonių moka darbuotojams ~800 EUR atlyginimą.
 
 Atsakymas:
 
-![atlyginimai](img/2_uzduotis.png)
+![atlyginimai](img/2_uzduotis.PNG)
 
 Išvados: metų eigoje matome didelius periodinius atlyginimų svyravimus. galbūt darbuotojams tam tikrą mėnesį yra išmokamos premijos.
 
@@ -34,4 +34,4 @@ Išvados: didžiausias apdraustųjų skaičius yra įmonėje Pfizer Luxemburg Sa
 
 Shiny R aplikacijos nuotrauka:
 
-![shiny app](img/shiny_app.png)
+![shiny app](img/shiny_app.PNG)
