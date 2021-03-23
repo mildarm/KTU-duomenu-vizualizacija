@@ -22,7 +22,7 @@ ui <- fluidPage(
 )
 server <- function(input, output, session) {
   
-  data <- read_csv("https://github.com/mildarm/KTU-duomenu-vizualizacija/blob/main/laboratorinis/data/lab_sodra.csv")
+  data <- read_csv("https://github.com/mildarm/KTU-duomenu-vizualizacija/raw/main/laboratorinis/data/lab_sodra.csv")
   
   data1<-data %>% 
     filter(ecoActCode == 731100) %>%
