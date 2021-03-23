@@ -1,8 +1,8 @@
 # 1 uzduotis
 
-setwd("~/KTU/Programavimas_R_Python/programavimas_R")
+
 library(tidyverse)
-data<-read_csv("lab_sodra.csv")
+data<-read_csv("https://github.com/mildarm/KTU-duomenu-vizualizacija/raw/main/laboratorinis/data/lab_sodra.csv")
 summary(data)
 str(data)
 
@@ -37,7 +37,7 @@ ggsave("2_uzduotis.png")
 data %>%
   filter(code %in% c(2324126, 2062457, 2385489, 2024352, 729917)) %>%
   group_by(name) %>%
-  summarise(apdraustieji = min(numInsured, na.rm = TRUE)) %>%
+  summarise(apdraustieji = max(numInsured, na.rm = TRUE)) %>%
   arrange(desc(apdraustieji)) %>%
   ggplot(aes(x = reorder(name,-apdraustieji), y = apdraustieji, fill = name))+
   geom_bar(stat = "summary")+
